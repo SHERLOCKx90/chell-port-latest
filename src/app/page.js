@@ -75,7 +75,7 @@ const page = () => {
           >
             <div><Image src="/photo1.png" width={500} height={500} alt='photo1' /></div>
             <div><Image src="/photo100.png" width={500} height={500} alt='photo100' /></div>
-            <div><Image src="/photo111.jpg" width={500} height={500} alt='photo111' /></div>
+            <div><Image src="/photo999.png" width={500} height={500} alt='photo999' /></div>
             <div><Image src="/photo222.jpeg" width={500} height={500} alt='photo222' /></div>
           </Carousel>
         </div>
