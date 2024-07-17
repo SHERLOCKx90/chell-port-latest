@@ -1,33 +1,3 @@
-// import React from 'react';
-// import Image from 'next/image';
-// import {
-//     Card,
-//     CardContent,
-//     CardDescription,
-//     CardFooter,
-//     CardHeader,
-//     CardTitle,
-// } from "@/components/ui/card";
-
-// const WorkCards = ({ image }) => {
-//     return (
-//         <Card className="w-[30rem] lg:w-[20rem]">
-//             <CardHeader>
-//                 <CardTitle>{image}</CardTitle>
-//                 <CardDescription>Work Cards</CardDescription>
-//             </CardHeader>
-//             <CardContent>
-//                 <Image src={require(`../../public/${image}`).default} alt="Work Card" className="w-full" />
-//             </CardContent>
-//             <CardFooter>
-//                 <p>Card Footer</p>
-//             </CardFooter>
-//         </Card>
-//     );
-// };
-
-// export default WorkCards;
-
 import React from 'react';
 import Image from 'next/image';
 import {
