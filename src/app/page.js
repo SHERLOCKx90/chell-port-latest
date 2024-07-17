@@ -83,7 +83,7 @@ const page = () => {
       {/* Work Experience Section */}
       <div className='min-w-full flex flex-col justify-center items-center px-20 pb-20'>
         <h1 className='text-center text-4xl mx-10 my-10 md:mx-40 lg:mx-80 flex flex-col justify-center items-center gap-5 md:flex-col lg:flex-row'><span><BriefcaseBusiness className='w-7 h-7' /></span>I have a work experience of 1+ Year.</h1>
-        <p className='text-justify md:mx-10 lg:mx-10 lg:w-[60rem]'>Uptill now, I've gained well-rounded experience in full-stack web development and UI/UX design. At App2Build Learning, I honed my skills in building interactive learning platform UI, utilizing Figma, Wireframing, Prototyping, ReactJS, Next.js, Tailwind CSS. At Evanke Inc., I focused on crafting user-centric interfaces for enterprise applications, applying UI/UX best practices and leveraging design tools like [mention specific design tools used, e.g., Adobe XD, Figma].  In A3 Transforms India Pvt. Ltd., I played a key role in developing and designing B2B solutions, ensuring a seamless user experience for complex functionalities. Finally, at ZeeBangla, I contributed to building a high-traffic entertainment website, optimizing front-end performance and adhering to responsive design principles.</p>
+        <p className='text-justify md:mx-10 lg:mx-10 lg:w-[60rem]'>Uptill now, I have gained well-rounded experience in full-stack web development and UI/UX design. At App2Build Learning, I honed my skills in building interactive learning platform UI, utilizing Figma, Wireframing, Prototyping, ReactJS, Next.js, Tailwind CSS. At Evanke Inc., I focused on crafting user-centric interfaces for enterprise applications, applying UI/UX best practices and leveraging design tools like [mention specific design tools used, e.g., Adobe XD, Figma].  In A3 Transforms India Pvt. Ltd., I played a key role in developing and designing B2B solutions, ensuring a seamless user experience for complex functionalities. Finally, at ZeeBangla, I contributed to building a high-traffic entertainment website, optimizing front-end performance and adhering to responsive design principles.</p>
       </div>
       <Marquee pauseOnHover={true} autoFill={true} className='flex flex-row gap-10 my-10'>
         <Image src="/app2buildlearning.svg" width={100} height={100} alt='photo1' className='mx-10 filter grayscale cursor-pointer hover:filter-none transition-colors' />
@@ -107,7 +107,7 @@ const page = () => {
       </div>
       {/* Contact Me Section */}
       <div className='border-2 border-gray-200 h-[20rem] flex flex-col justify-center items-center mt-10 w-full px-20'>
-        <h1 className=' text-2xl lg:text-4xl md:text-3xl flex flex-col justify-center items-center gap-5 md:flex-row lg:flex-row'><span><Zap className='w-7 h-7' /></span>Let's Connect</h1>
+        <h1 className=' text-2xl lg:text-4xl md:text-3xl flex flex-col justify-center items-center gap-5 md:flex-row lg:flex-row'><span><Zap className='w-7 h-7' /></span>Let us Connect</h1>
         <p className='text-center my-5'>Hey there, ready to team up and make something awesome happen?</p>
         <Button className="hover:translate-y-1 transition-all cursor-pointer" onClick={handleSendEmailClick}><span><Send className='mr-2 h-4 w-4' /></span>Send Email</Button>
         <div className='flex flex-row justify-center items-center gap-3 mt-10'>
