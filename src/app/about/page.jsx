@@ -2,14 +2,14 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { Card, CardContent } from "/src/components/ui/card"
+import { Card, CardContent } from "@components/ui/Card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "/src/components/ui/carousel"
+} from "@components/ui/Carousel"
 
 const Page = () => {
   const photoarray = [

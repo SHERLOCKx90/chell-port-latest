@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
-import { Button } from '@/Components/ui/button';
+import { Button } from '@/Components/ui/Button';
 import { Download, Zap } from 'lucide-react';
 import Skills from '@/Components/Skills';
 import { Send } from 'lucide-react';
