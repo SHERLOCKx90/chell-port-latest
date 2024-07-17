@@ -7,7 +7,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card";
+} from "/src/components/ui/card";
 
 const UiCards = ({ image, name, tag, link }) => {
     return (
