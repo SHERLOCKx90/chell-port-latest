@@ -1,6 +1,6 @@
 import React from 'react';
-import UiCards from '/src/Components/UiCards';
-import WorkCards from '/src/Components/WorkCards';
+import UiCards from '@/Components/UiCards';
+import WorkCards from '@/Components/WorkCards';
 
 const Page = () => {
   const codeWorkArray = [

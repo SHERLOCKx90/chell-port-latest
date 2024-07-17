@@ -5,14 +5,13 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
-import { Button } from '@/Components/ui/Button';
+import { Button } from '@/Components/ui/button';
 import { Download, Zap } from 'lucide-react';
 import Skills from '@/Components/Skills';
 import { Send } from 'lucide-react';
 import { Waypoints } from 'lucide-react';
 import { BriefcaseBusiness } from 'lucide-react';
 import Link from 'next/link';
-import { saveAs } from 'file-saver';
 
 const page = () => {
   const handleSendEmailClick = () => {
